@@ -12,9 +12,9 @@ namespace Tyuiu.BrukhovAA.Sprint1.Task2.V3.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int a = 3;
-            var res = ds.ConvertHourToMin(a);
-            Assert.AreEqual(180, res);
+            int x = 2;
+            var res = ds.ConvertHourToMin(x);
+            Assert.AreEqual(120, res);
         }
     }
 }
